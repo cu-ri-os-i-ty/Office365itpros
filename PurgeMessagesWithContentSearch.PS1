@@ -18,7 +18,7 @@ Connect-IPPSSession
 
 # Some information to identify the messages we want to purge
 $BadSender = "badactor@badboys.com"
-$Subject = "Special Offer for you"
+$Subject = "Special Offer for you" #To delete everything from $BadSender Remove $Subject and Delete (subjecttitle="' + $Subject + '") from line 30
 # Note - if the subject contains a special character like a $ sign, make sure that you escape that character otherwise it won't
 # be used in the search
 $ComplianceSearch = "Remove Offensive Information"
